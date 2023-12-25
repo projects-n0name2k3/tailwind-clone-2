@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+    background: linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%);
+}
+
+.gradient-1 {
+    background: linear-gradient(180deg, rgba(202, 255, 51, 0.05) 0%, rgba(202, 255, 51, 0.00) 100%);
+}
+
+.ftr {
+    background: linear-gradient(270deg, #191919 10.8%, rgba(25, 25, 25, 0.00) 105.84%);
+}
+
+.ftl {
+    background: linear-gradient(270deg, rgba(25, 25, 25, 0.00) 0%, #191919 105.84%);
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+    width: 0.3em;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8f8f8f;
+}
